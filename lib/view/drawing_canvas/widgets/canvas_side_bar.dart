@@ -261,10 +261,10 @@ class CanvasSideBar extends HookWidget {
                         : 'Remove Background',
                   ),
                 ),
-                TextButton(
-                  child: const Text('Fork on Github'),
-                  onPressed: () => _launchUrl(kGithubRepo),
-                ),
+                // TextButton(
+                //   child: const Text('Fork on Github'),
+                //   onPressed: () => _launchUrl(kGithubRepo),
+                // ),
               ],
             ),
             const SizedBox(height: 20),
