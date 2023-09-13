@@ -44,6 +44,8 @@ dependencies:
   url_launcher: ^6.1.14
   flutter_colorpicker: ^1.0.3
   flutter_svg: ^2.0.7
+  image_cropper: ^5.0.0
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:

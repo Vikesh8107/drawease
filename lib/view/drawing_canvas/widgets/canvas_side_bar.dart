@@ -3,6 +3,7 @@ import 'dart:io';
 import 'dart:ui' as ui;
 
 import 'package:file_picker/file_picker.dart';
+import 'package:image_cropper/image_cropper.dart';
 import 'package:file_saver/file_saver.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' hide Image;
@@ -261,10 +262,10 @@ class CanvasSideBar extends HookWidget {
                         : 'Remove Background',
                   ),
                 ),
-                // TextButton(
-                //   child: const Text('Fork on Github'),
-                //   onPressed: () => _launchUrl(kGithubRepo),
-                // ),
+                TextButton(
+                  child: const Text('Fork on Github'),
+                  onPressed: () => _launchUrl(kGithubRepo),
+                ),
               ],
             ),
             const SizedBox(height: 20),
@@ -371,6 +372,8 @@ class CanvasSideBar extends HookWidget {
       }
     }
   }
+  
+  
 
   Future<Uint8List?> getBytes() async {
     RenderRepaintBoundary boundary = canvasGlobalKey.currentContext

@@ -107,14 +107,14 @@ class _CustomAppBar extends StatelessWidget {
                 }
               },
               icon: const Icon(Icons.menu),
+              color: Colors.white,
             ),
             const Text(
               'Fire up with your creativity',
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 19,
-                color: Colors.white
-              ),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 19,
+                  color: Colors.white),
             ),
             const SizedBox.shrink(),
           ],
